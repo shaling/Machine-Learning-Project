@@ -2,24 +2,48 @@
 ## Cat vs Dog Image Classification using CNN
 ### Project Overview
 This project implements a Convolutional Neural Network (CNN) using TensorFlow/Keras to classify images of cats and dogs. The model achieves 81.65% validation accuracy on the test set.
+### Installations and Dependencies
+This project was developed using Python in Jupyter Notebook. The key dependencies are:
+- tensorflow
+- numpy
+- matplotlib
+- keras
+- PIL (Python Imaging Library)
 
-### Dataset
-Training set: 8,000 images (4,000 cats, 4,000 dogs)
-Test set: 2,000 images (1,000 cats, 1,000 dogs)
-Image size: 64x64 pixels, RGB format
-### Model Architectur
-- Conv2D (32 filters, 3x3 kernel, ReLU)
-- MaxPooling2D (2x2)
-- Conv2D (64 filters, 3x3 kernel, ReLU)
-- MaxPooling2D (2x2)
-- Flatten
-- Dense (128 units, ReLU)
-- Dropout (0.5)
-- Dense (1 unit, Sigmoid)
+### Project Structure
+The project consists of the following main components:
+#### Data Organization:
+- Training set: 8000 images (4000 cats + 4000 dogs)
+- Test set: 2000 images (1000 cats + 1000 dogs)
+- Single prediction folder: For testing individual images
+- Data augmentation with rotation, zoom, and flip
 
-### Performance
-Training accuracy: 94.40%
-Validation accuracy: 81.65%
-Loss: 0.1428
-Validation loss: 0.7277
-
+#### Model Architectur:
+- Sequential CNN model using TensorFlow/Keras
+- Input shape: (64, 64, 3)
+- First Conv Layer: 64 filters, 3x3 kernel, ReLU
+- MaxPooling: 2x2
+- Second Conv Layer: 128 filters, 3x3 kernel, ReLU
+- MaxPooling: 2x2 with Dropout(0.3)
+- Dense Layer: 256 units with Dropout(0.4)
+- Output Layer: 1 unit, sigmoid activation
+#### Training Configuration:
+- Optimizer: Adam
+- Loss function: Binary crossentropy
+- Metrics: Accuracy
+- Epochs: 30
+- Batch size: 32
+- Steps per epoch: 250
+- Validation steps: 63
+### Performance Metrics
+Final model performance:
+- Training accuracy: 83.09%
+- Validation accuracy: 79.25%
+- Training loss: 0.3781
+- Validation loss: 0.4635
+### Features
+- Image preprocessing and augmentation
+- Real-time data generation
+- Single image prediction capability
+- Visualization of predictions
+- Model performance monitoring
