@@ -19,7 +19,7 @@ The project consists of the following main components:
 - Data augmentation with rotation, zoom, and flip
 
 you can get data from the following link:
-[Link Text](https://drive.google.com/drive/folders/1DCOqRyd4hW5hhcPwZyXUQlwcqaRZ0mMV?usp=share_link)
+[Dataset](https://drive.google.com/drive/folders/1DCOqRyd4hW5hhcPwZyXUQlwcqaRZ0mMV?usp=share_link)
 
 #### Model Architectur:
 - Sequential CNN model using TensorFlow/Keras
@@ -52,5 +52,5 @@ Final model performance:
 - Model performance monitoring
 
 ### Medium Link:
-https://medium.com/@qhe_95131/my-journey-with-image-classification-using-cnn-14ef397bf4c3
+[Medium Story](https://medium.com/@qhe_95131/my-journey-with-image-classification-using-cnn-14ef397bf4c3)
 
