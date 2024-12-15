@@ -19,7 +19,7 @@ The project consists of the following main components:
 - Data augmentation with rotation, zoom, and flip
 
 you can get data from the following link:
-[Link Text] https://drive.google.com/drive/folders/1DCOqRyd4hW5hhcPwZyXUQlwcqaRZ0mMV?usp=share_link
+[Link Text](https://drive.google.com/drive/folders/1DCOqRyd4hW5hhcPwZyXUQlwcqaRZ0mMV?usp=share_link)
 
 #### Model Architectur:
 - Sequential CNN model using TensorFlow/Keras
