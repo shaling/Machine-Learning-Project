@@ -18,6 +18,9 @@ The project consists of the following main components:
 - Single prediction folder: For testing individual images
 - Data augmentation with rotation, zoom, and flip
 
+you can get data from the following link:
+https://drive.google.com/drive/folders/1DCOqRyd4hW5hhcPwZyXUQlwcqaRZ0mMV?usp=share_link 
+
 #### Model Architectur:
 - Sequential CNN model using TensorFlow/Keras
 - Input shape: (64, 64, 3)
@@ -47,3 +50,7 @@ Final model performance:
 - Single image prediction capability
 - Visualization of predictions
 - Model performance monitoring
+
+### Medium Link:
+https://medium.com/@qhe_95131/my-journey-with-image-classification-using-cnn-14ef397bf4c3
+
