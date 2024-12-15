@@ -1,7 +1,7 @@
 # Machine-Learning-Project
 ## Cat vs Dog Image Classification using CNN
 ### Project Overview
-This project implements a Convolutional Neural Network (CNN) using TensorFlow/Keras to classify images of cats and dogs. The model achieves 81.65% validation accuracy on the test set.
+This project implements a Convolutional Neural Network (CNN) using TensorFlow/Keras to classify images of cats and dogs. The model achieves 79.25% validation accuracy on the test set.
 ### Installations and Dependencies
 This project was developed using Python in Jupyter Notebook. The key dependencies are:
 - tensorflow
